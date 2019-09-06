@@ -1,0 +1,16 @@
+Courses have reports, reports belong to courses
+Courses have students, students belong to courses
+
+Reports have students, and students have reports (we need a results table for relationship)
+
+Course Data: 
+Primary Key, Instructor, Location, Start-Date, End-Date, Complete (bool)
+
+Report Data:
+Primary Key, Instructor fkey, Report Date
+
+Results Data:
+Report fkey, student fkey, item for each response filled out (e.g. whyq1, whyq2, whereq1, whereq2 etc.)
+
+Students Data:
+Primary Key, course fkey, name, age, gender
