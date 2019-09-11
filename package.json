@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aehaq/Reading-on-the-Pitch-Demo/issues"
   },
-  "homepage": "https://github.com/aehaq/Reading-on-the-Pitch-Demo#readme"
+  "homepage": "https://github.com/aehaq/Reading-on-the-Pitch-Demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
